@@ -1,24 +1,15 @@
-Zip Assets plugin for Craft CMS
+Download Assets plugin for Craft CMS
 =================
 
-Plugin that downloads a zipfile with a selection of assets.
+A Craft CMS plugin to download any selection of assets from the control panel.
+
+## Usage
 
 
-Example
-=================
-```html
-<form method="post" target="_blank">
-    <input type="hidden" name="action" value="zipAssets/download">
-    <input type="hidden" name="filename" value="your-zipfile">
-    
-    <input type="checkbox" name="files[]" value="123"><!-- asset id -->
-    <input type="checkbox" name="files[]" value="234"><!-- asset id -->
-    
-    <input type="submit" value="Download!">
-</form>
-```
-
-Changelog
-=================
+## Changelog
 ###1.0###
  - Initial release
+
+Acknowledgement
+==================
+The initial Zip code comes from Bob Olde Hampsink's ZipAssets plugin.

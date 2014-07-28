@@ -1,0 +1,18 @@
+{% import "_includes/forms" as forms %}
+
+<form method="post">
+	<input type="hidden" name="action" value="downloadAssets/download">
+	{% set sources = craft.downloadAssets.getSourcesOptGroup() %}
+	{{ forms.selectField({
+		label: "Source:"|t,
+		class: "assetsSource",
+		name: "assetsSource",
+		options: sources,
+		errors: downloadAssets is defined ? downloadAssets.getErrors('assetsSource') : ''
+	}) }}
+
+	<div class="buttons last">
+		<input type="submit" class="btn submit" value="{{ 'Download'|t }}">
+		<div class="spinner hidden"></div>
+	</div>
+</form>
