@@ -11,6 +11,9 @@ A Craft CMS plugin to download any selection of assets from the control panel.
 
 ![Screenshot](https://raw.githubusercontent.com/mattstauffer/craftcms-downloadAssets/master/downloadassets-in-action.png)
 
+## Notes
+- Currently you can only download files from Local Sources. However, I'm absolutely open to suggestions that it should allow non-Local sources, if there are good use cases for that.
+
 ## Changelog
 ###1.0###
  - Initial release
