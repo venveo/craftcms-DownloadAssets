@@ -40,7 +40,7 @@ class DownloadAssetsController extends BaseController
                 $source = craft()->assetSources->getSourceById($asset->sourceId);
                        
                 // Add asset to zip         
-                $zip->addFile($source->settings['path'] . $asset->filename, $asset->filename);
+                $zip->addFile($source->settings['path'] . $asset->folder->path . $asset->filename, $asset->folder->path . $asset->filename);
             }
             
             // Close zip
