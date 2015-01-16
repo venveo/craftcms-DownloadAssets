@@ -2,6 +2,7 @@
 
 <form method="post">
 	<input type="hidden" name="action" value="downloadAssets/download">
+	{{ getCsrfInput() }}
 	{% set sources = craft.downloadAssets.getSourcesOptGroup() %}
 	{{ forms.selectField({
 		label: "Source:"|t,
