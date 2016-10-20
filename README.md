@@ -19,4 +19,7 @@ A Craft CMS plugin to download any selection of assets from the control panel.
  - Initial release
 
 ## Acknowledgement
-The initial Zip code comes from Bob Olde Hampsink's ZipAssets plugin.
+The initial Zip code comes from Bob Olde Hampsink's ZipAssets plugin. 
+
+Zip file Icon
+By Oliviu Stoian, RO
